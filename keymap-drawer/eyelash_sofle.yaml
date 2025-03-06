@@ -1,6 +1,6 @@
 layers:
   LAYER0:
-  - {t: '$$mdi:keyboard-esc$$', s: '`'}
+  - '~'
   - {t: +, s: KP 1}
   - {t: '[', s: KP 2}
   - {t: '{', s: KP 3}
