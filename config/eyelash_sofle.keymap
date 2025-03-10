@@ -35,96 +35,6 @@
             time-to-max-speed-ms = <400>;      // 500
             delay-ms = <0>;                   //   10
         };
-
-        one: one {
-            compatible = "zmk,behavior-mod-morph";
-            label = "ONE";
-            bindings = <&kp PLUS>, <&kp KP_NUMBER_1>;
-
-            #binding-cells = <0>;
-            mods = <(MOD_LSFT|MOD_RSFT)>;
-        };
-
-        two: two {
-            compatible = "zmk,behavior-mod-morph";
-            label = "TWO";
-            bindings = <&kp LEFT_BRACKET>, <&kp KP_NUMBER_2>;
-
-            #binding-cells = <0>;
-            mods = <(MOD_LSFT)>;
-        };
-
-        three: three {
-            compatible = "zmk,behavior-mod-morph";
-            label = "THREE";
-            bindings = <&kp LEFT_BRACE>, <&kp KP_NUMBER_3>;
-
-            #binding-cells = <0>;
-            mods = <(MOD_LSFT)>;
-        };
-
-        four: four {
-            compatible = "zmk,behavior-mod-morph";
-            label = "FOUR";
-            bindings = <&kp LEFT_PARENTHESIS>, <&kp KP_NUMBER_4>;
-
-            #binding-cells = <0>;
-            mods = <(MOD_LSFT)>;
-        };
-
-        five: five {
-            compatible = "zmk,behavior-mod-morph";
-            label = "FIVE";
-            bindings = <&kp AMPERSAND>, <&kp KP_NUMBER_5>;
-
-            #binding-cells = <0>;
-            mods = <(MOD_LSFT)>;
-        };
-
-        six: six {
-            compatible = "zmk,behavior-mod-morph";
-            label = "SIX";
-            bindings = <&kp EQUAL>, <&kp KP_NUMBER_6>;
-
-            #binding-cells = <0>;
-            mods = <(MOD_LSFT)>;
-        };
-
-        seven: seven {
-            compatible = "zmk,behavior-mod-morph";
-            label = "SEVEN";
-            bindings = <&kp RIGHT_PARENTHESIS>, <&kp LS(KP_NUMBER_7)>;
-
-            #binding-cells = <0>;
-            mods = <(MOD_LSFT)>;
-        };
-
-        eight: eight {
-            compatible = "zmk,behavior-mod-morph";
-            label = "EIGHT";
-            bindings = <&kp RIGHT_BRACE>, <&kp LS(KP_NUMBER_8)>;
-
-            #binding-cells = <0>;
-            mods = <(MOD_LSFT)>;
-        };
-
-        nine: nine {
-            compatible = "zmk,behavior-mod-morph";
-            label = "NINE";
-            bindings = <&kp RIGHT_BRACKET>, <&kp LS(KP_NUMBER_9)>;
-
-            #binding-cells = <0>;
-            mods = <(MOD_LSFT)>;
-        };
-
-        zero: zero {
-            compatible = "zmk,behavior-mod-morph";
-            label = "ZERO";
-            bindings = <&kp ASTERISK>, <&kp LS(KP_NUMBER_0)>;
-
-            #binding-cells = <0>;
-            mods = <(MOD_LSFT)>;
-        };
     };
 
     scroll_encoder: scroll_encoder {
@@ -140,11 +50,11 @@
 
         layer0 {
             bindings = <
-&kp TILDE   &one       &two          &three      &four         &five    &kp UP_ARROW     &six   &seven  &eight         &nine      &zero       &kp HASH
-&kp TAB     &kp SEMI   &kp COMMA     &kp PERIOD  &kp P         &kp Y    &kp DOWN_ARROW   &kp F  &kp G   &kp C          &kp R      &kp L       &kp SLASH
-&kp ESCAPE  &kp A      &kp O         &kp E       &kp U         &kp I    &kp LEFT_ARROW   &kp D  &kp H   &kp T          &kp N      &kp S       &kp MINUS
-&kp LSHFT   &kp SQT    &kp Q         &kp J       &kp K         &kp X    &kp RIGHT_ARROW  &kp B  &kp M   &kp W          &kp V      &kp Z       &kp RIGHT_SHIFT
-&kp C_MUTE  &kp LCTRL  &kp LEFT_GUI  &kp SPACE   &kp LEFT_ALT  &mo 1    &kp ENTER        &mo 2  &kp AT  &kp BACKSPACE  &kp ENTER  &kp DELETE
+&kp TILDE   &kp PLUS   &kp LEFT_BRACKET  &kp LEFT_BRACE  &kp LEFT_PARENTHESIS  &kp AMPERSAND    &kp UP_ARROW     &kp EQUAL      &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACE  &kp RIGHT_BRACKET  &kp ASTERISK  &kp HASH
+&kp TAB     &kp SEMI   &kp COMMA         &kp PERIOD      &kp P                 &kp Y            &kp DOWN_ARROW   &kp F          &kp G                  &kp C            &kp R              &kp L         &kp SLASH
+&kp ESCAPE  &kp A      &kp O             &kp E           &kp U                 &kp I            &kp LEFT_ARROW   &kp D          &kp H                  &kp T            &kp N              &kp S         &kp ENTER
+&kp LSHFT   &kp SQT    &kp Q             &kp J           &kp K                 &kp X            &kp RIGHT_ARROW  &kp B          &kp M                  &kp W            &kp V              &kp Z         &kp RIGHT_SHIFT
+&kp C_MUTE  &kp LCTRL  &kp LEFT_GUI      &kp LALT        &mo 1                 &kp SPACE        &kp ENTER        &kp BACKSPACE  &mo 2                  &kp BACKSPACE    &kp ENTER          &kp DELETE
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
@@ -153,11 +63,11 @@
 
         layer_1 {
             bindings = <
-&kp GRAVE   &kp F1           &kp F2          &kp F3           &kp F4           &kp F5             &mmv MOVE_UP     &kp F6           &kp F7           &kp F8      &kp F9     &kp F10           &trans
-&trans      &kp GRAVE        &mkp LCLK       &mkp MCLK        &mkp RCLK        &mkp MB4           &mmv MOVE_DOWN   &kp PG_UP        &kp END          &kp UP      &kp HOME   &kp MINUS         &kp EQUAL
-&trans      &kp TILDE        &trans          &trans           &trans           &mkp MB5           &mmv MOVE_LEFT   &kp PG_DN        &kp LEFT         &kp DOWN    &kp RIGHT  &kp LEFT_BRACKET  &kp MINUS
-&trans      &rgb_ug RGB_OFF  &rgb_ug RGB_ON  &rgb_ug RGB_EFF  &rgb_ug RGB_EFR  &rgb_ug RGB_SPI    &mmv MOVE_RIGHT  &rgb_ug RGB_BRI  &rgb_ug RGB_BRD  &kp INSERT  &kp F11    &kp F12           &trans
-&kp C_MUTE  &trans           &trans          &trans           &trans           &trans             &mkp LCLK        &trans           &trans           &trans      &trans     &trans
+&kp GRAVE   &kp NUMBER_1     &kp NUMBER_2    &kp NUMBER_3     &kp NUMBER_4     &kp NUMBER_5       &mmv MOVE_UP     &kp NUMBER_6     &kp NUMBER_7     &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0      &trans
+&trans      &kp GRAVE        &mkp LCLK       &mkp MCLK        &mkp RCLK        &mkp MB4           &mmv MOVE_DOWN   &kp PG_UP        &kp END          &kp UP        &kp HOME      &kp MINUS         &kp EQUAL
+&trans      &kp TILDE        &trans          &trans           &trans           &mkp MB5           &mmv MOVE_LEFT   &kp PG_DN        &kp LEFT         &kp DOWN      &kp RIGHT     &kp LEFT_BRACKET  &kp MINUS
+&trans      &rgb_ug RGB_OFF  &rgb_ug RGB_ON  &rgb_ug RGB_EFF  &rgb_ug RGB_EFR  &rgb_ug RGB_SPI    &mmv MOVE_RIGHT  &rgb_ug RGB_BRI  &rgb_ug RGB_BRD  &kp INSERT    &kp F11       &kp F12           &trans
+&kp C_MUTE  &trans           &trans          &trans           &trans           &trans             &mkp LCLK        &trans           &trans           &trans        &trans        &trans
             >;
 
             display-name = "layer1";
