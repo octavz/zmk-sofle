@@ -45,16 +45,25 @@
         tap-ms = <30>;
     };
 
+    one: one {
+        compatible = "zmk,behavior-mod-morph";
+        label = "ONE";
+        bindings = <&kp PLUS>, <&kp NUMBER_1>;
+
+        #binding-cells = <0>;
+        mods = <(MOD_LSFT)>;
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
         layer0 {
             bindings = <
-&kp TILDE   &kp PLUS   &kp LEFT_BRACKET  &kp LEFT_BRACE  &kp LEFT_PARENTHESIS  &kp AMPERSAND    &kp UP_ARROW     &kp EQUAL  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACE  &kp RIGHT_BRACKET  &kp ASTERISK  &kp HASH
+&kp TILDE   &one       &kp LEFT_BRACKET  &kp LEFT_BRACE  &kp LEFT_PARENTHESIS  &kp AMPERSAND    &kp UP_ARROW     &kp EQUAL  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACE  &kp RIGHT_BRACKET  &kp ASTERISK  &kp HASH
 &kp TAB     &kp SEMI   &kp COMMA         &kp PERIOD      &kp P                 &kp Y            &kp DOWN_ARROW   &kp F      &kp G                  &kp C            &kp R              &kp L         &kp SLASH
-&kp ESCAPE  &kp A      &kp O             &kp E           &kp U                 &kp I            &kp LEFT_ARROW   &kp D      &kp H                  &kp T            &kp N              &kp S         &kp ENTER
+&kp ESCAPE  &kp A      &kp O             &kp E           &kp U                 &kp I            &kp LEFT_ARROW   &kp D      &kp H                  &kp T            &kp N              &kp S         &kp MINUS
 &kp LSHFT   &kp SQT    &kp Q             &kp J           &kp K                 &kp X            &kp RIGHT_ARROW  &kp B      &kp M                  &kp W            &kp V              &kp Z         &kp RIGHT_SHIFT
-&kp C_MUTE  &kp LCTRL  &kp LGUI          &kp SPACE       &kp SPACE             &mo 1            &kp ENTER        &mo 2      &kp BACKSPACE          &kp BACKSPACE    &kp ENTER          &mo 2
+&kp C_MUTE  &kp LCTRL  &kp LGUI          &kp SPACE       &kp SPACE             &mo 1            &kp ENTER        &mo 2      &kp BACKSPACE          &kp BACKSPACE    &kp ENTER          &kp ENTER
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
