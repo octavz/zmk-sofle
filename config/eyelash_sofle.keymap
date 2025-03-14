@@ -50,7 +50,7 @@
         bindings = <&kp PLUS>, <&kp NUMBER_1>;
 
         #binding-cells = <0>;
-        mods = <(MOD_LSFT)>;
+        mods = <(MOD_LSFT|MOD_RSFT)>;
     };
 
     two: two {
@@ -59,7 +59,7 @@
         bindings = <&kp LEFT_BRACKET>, <&kp NUMBER_2>;
 
         #binding-cells = <0>;
-        mods = <(MOD_LSFT)>;
+        mods = <(MOD_LSFT|MOD_RSFT)>;
     };
 
     three: three {
@@ -68,7 +68,7 @@
         bindings = <&kp LEFT_BRACE>, <&kp NUMBER_3>;
 
         #binding-cells = <0>;
-        mods = <(MOD_LSFT)>;
+        mods = <(MOD_LSFT|MOD_RSFT)>;
     };
 
     four: four {
@@ -77,7 +77,7 @@
         bindings = <&kp LEFT_PARENTHESIS>, <&kp NUMBER_4>;
 
         #binding-cells = <0>;
-        mods = <(MOD_LSFT)>;
+        mods = <(MOD_LSFT|MOD_RSFT)>;
     };
 
     five: five {
@@ -86,7 +86,7 @@
         bindings = <&kp AMPERSAND>, <&kp N5>;
 
         #binding-cells = <0>;
-        mods = <(MOD_LSFT)>;
+        mods = <(MOD_LSFT|MOD_RSFT)>;
     };
 
     six: six {
@@ -95,7 +95,7 @@
         bindings = <&kp EQUAL>, <&kp NUMBER_6>;
 
         #binding-cells = <0>;
-        mods = <(MOD_LSFT)>;
+        mods = <(MOD_LSFT|MOD_RSFT)>;
     };
 
     seven: seven {
@@ -104,7 +104,7 @@
         bindings = <&kp RIGHT_PARENTHESIS>, <&kp N7>;
 
         #binding-cells = <0>;
-        mods = <(MOD_LSFT)>;
+        mods = <(MOD_LSFT|MOD_RSFT)>;
     };
 
     eight: eight {
@@ -113,7 +113,7 @@
         bindings = <&kp RIGHT_BRACE>, <&kp N8>;
 
         #binding-cells = <0>;
-        mods = <(MOD_LSFT)>;
+        mods = <(MOD_LSFT|MOD_RSFT)>;
     };
 
     nine: nine {
@@ -122,7 +122,7 @@
         bindings = <&kp RIGHT_BRACKET>, <&kp N9>;
 
         #binding-cells = <0>;
-        mods = <(MOD_LSFT)>;
+        mods = <(MOD_LSFT|MOD_RSFT)>;
     };
 
     zero: zero {
@@ -131,7 +131,7 @@
         bindings = <&kp ASTERISK>, <&kp N0>;
 
         #binding-cells = <0>;
-        mods = <(MOD_LSFT)>;
+        mods = <(MOD_LSFT|MOD_RSFT)>;
     };
 
     keymap {
