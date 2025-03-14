@@ -1,7 +1,7 @@
 layers:
   LAYER0:
   - '~'
-  - +
+  - {t: +, s: '1'}
   - {t: '[', s: '{'}
   - '{'
   - (
@@ -38,7 +38,7 @@ layers:
   - T
   - N
   - S
-  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - {t: '-', s: _}
   - $$mdi:apple-keyboard-shift$$
   - {t: '''', s: '"'}
   - Q
@@ -63,7 +63,7 @@ layers:
   - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - '2'
+  - {t: '$$mdi:keyboard-return$$', type: enter}
   layer1:
   - {t: '`', s: '~'}
   - '1'
@@ -193,4 +193,4 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held alternate}
+  - {t: '$$mdi:transfer$$', type: trans}
