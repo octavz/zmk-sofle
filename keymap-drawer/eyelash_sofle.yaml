@@ -125,7 +125,7 @@ layers:
   - {type: held}
   - $$mdi:mouse-left-click-outline$$
   - '&qwerty 2'
-  - {t: '$$mdi:transfer$$', type: trans}
+  - LAYER0
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
