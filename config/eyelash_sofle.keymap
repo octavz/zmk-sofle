@@ -160,7 +160,7 @@
 &trans      &none   &none   &none   &none   &none     &mmv MOVE_DOWN   &none      &kp END   &kp UP    &kp HOME   &none    &none
 &trans      &none   &trans  &trans  &trans  &none     &mmv MOVE_LEFT   &none      &kp LEFT  &kp DOWN  &kp RIGHT  &none    &none
 &trans      &none   &none   &none   &none   &none     &mmv MOVE_RIGHT  &none      &none     &none     &kp F11    &kp F12  &trans
-&kp C_MUTE  &trans  &trans  &trans  &none   &trans    &mkp LCLK        &qwerty 2  &trans    &trans    &trans     &trans
+&kp C_MUTE  &trans  &trans  &trans  &none   &trans    &mkp LCLK        &qwerty 2  &mo 0     &trans    &trans     &trans
             >;
 
             display-name = "layer1";
