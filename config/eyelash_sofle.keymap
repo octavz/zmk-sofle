@@ -157,11 +157,11 @@
 
         layer_1 {
             bindings = <
-&none       &kp F1        &kp F2        &kp F3  &kp F4  &kp F5    &mmv MOVE_UP     &kp F6     &kp F7     &kp F8    &kp F9     &kp F10  &trans
-&trans      &bt BT_SEL 0  &bt BT_SEL 1  &none   &none   &none     &mmv MOVE_DOWN   &none      &kp END    &kp UP    &kp HOME   &none    &none
-&trans      &bt BT_CLR    &trans        &trans  &trans  &none     &mmv MOVE_LEFT   &none      &kp LEFT   &kp DOWN  &kp RIGHT  &none    &none
-&trans      &none         &none         &none   &none   &none     &mmv MOVE_RIGHT  &none      &none      &none     &kp F11    &kp F12  &trans
-&kp C_MUTE  &trans        &trans        &trans  &none   &trans    &mkp LCLK        &qwerty 2  &qwerty 0  &trans    &trans     &trans
+&none       &kp F1        &kp F2        &kp F3  &kp F4  &kp F5    &mmv MOVE_UP     &kp F6  &kp F7    &kp F8    &kp F9     &kp F10  &trans
+&trans      &bt BT_SEL 0  &bt BT_SEL 1  &none   &none   &none     &mmv MOVE_DOWN   &none   &kp END   &kp UP    &kp HOME   &none    &none
+&trans      &bt BT_CLR    &trans        &trans  &trans  &none     &mmv MOVE_LEFT   &none   &kp LEFT  &kp DOWN  &kp RIGHT  &none    &none
+&trans      &none         &none         &none   &none   &none     &mmv MOVE_RIGHT  &none   &none     &none     &kp F11    &kp F12  &trans
+&kp C_MUTE  &trans        &trans        &trans  &none   &trans    &mkp LCLK        &tog 2  &none     &trans    &trans     &trans
             >;
 
             display-name = "layer1";
@@ -174,7 +174,7 @@
 &kp TAB     &kp Q         &kp W         &kp E         &kp R         &kp T     &mmv MOVE_DOWN   &kp Y         &kp U   &kp I          &kp O       &kp P          &none
 &kp ESCAPE  &kp A         &kp S         &kp D         &kp F         &kp G     &mmv MOVE_LEFT   &kp H         &kp J   &kp K          &kp L       &kp SEMICOLON  &none
 &kp LSHFT   &kp Z         &kp X         &kp C         &kp V         &kp B     &mmv MOVE_RIGHT  &kp N         &kp M   &kp COMMA      &kp PERIOD  &kp SLASH      &kp RSHFT
-&trans      &kp LCTRL     &kp LGUI      &kp SPACE     &kp SPACE     &mo 1     &mkp LCLK        &none         &trans  &kp BACKSPACE  &kp ENTER   &kp ENTER
+&trans      &kp LCTRL     &kp LGUI      &kp SPACE     &kp SPACE     &mo 1     &mkp LCLK        &tog 0        &trans  &kp BACKSPACE  &kp ENTER   &kp ENTER
             >;
 
             sensor-bindings = <&scroll_encoder>;
