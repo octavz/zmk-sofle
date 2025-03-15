@@ -90,7 +90,7 @@ layers:
   - $$mdi:arrow-up-bold$$
   - HOME
   - '@'
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: \, s: '|'}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:bluetooth-off$$
   - {t: '$$mdi:transfer$$', type: trans}
@@ -103,7 +103,7 @@ layers:
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-right-bold$$
   - '%'
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - '|'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
