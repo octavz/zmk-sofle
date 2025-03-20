@@ -157,7 +157,7 @@
 
         layer_1 {
             bindings = <
-&none       &kp F1        &kp F2          &kp F3  &kp F4  &kp F5    &mmv MOVE_UP     &kp F6  &kp F7    &kp F8    &kp F9     &kp F10      &trans
+&kp DOLLAR  &kp F1        &kp F2          &kp F3  &kp F4  &kp F5    &mmv MOVE_UP     &kp F6  &kp F7    &kp F8    &kp F9     &kp F10      &trans
 &trans      &bt BT_SEL 0  &bt BT_SEL 1    &none   &none   &none     &mmv MOVE_DOWN   &none   &kp END   &kp UP    &kp HOME   &kp AT       &kp BACKSLASH
 &trans      &bt BT_CLR    &bt BT_CLR_ALL  &trans  &trans  &none     &mmv MOVE_LEFT   &none   &kp LEFT  &kp DOWN  &kp RIGHT  &kp PERCENT  &kp PIPE
 &trans      &none         &none           &none   &none   &none     &mmv MOVE_RIGHT  &none   &none     &none     &kp F11    &kp F12      &kp EXCLAMATION
