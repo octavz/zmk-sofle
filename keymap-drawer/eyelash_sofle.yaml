@@ -57,14 +57,14 @@ layers:
   - $$mdi:apple-keyboard-control$$
   - LGUI
   - $$mdi:keyboard-space$$
-  - $$mdi:keyboard-space$$
+  - $$mdi:apple-keyboard-option$$
   - layer1
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - '2'
-  - {t: '$$mdi:backspace$$', type: backspace}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   layer1:
   - $
   - F1
