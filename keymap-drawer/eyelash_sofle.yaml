@@ -60,10 +60,10 @@ layers:
   - $$mdi:apple-keyboard-option$$
   - layer1
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - '2'
+  - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:backspace$$', type: backspace}
-  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   layer1:
   - $
@@ -190,7 +190,7 @@ layers:
   - $$mdi:keyboard-space$$
   - layer1
   - $$mdi:mouse-left-click-outline$$
-  - {t: LAYER0, h: toggle, type: held}
+  - {t: LAYER0, h: toggle}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:keyboard-return$$', type: enter}
