@@ -15,43 +15,43 @@ layers:
   - {t: '*', s: '0'}
   - '#'
   - $$mdi:keyboard-tab$$
-  - {t: ;, s: ':'}
-  - {t: ',', s: <}
-  - .
-  - P
-  - Y
-  - $$mdi:arrow-down-bold$$
+  - Q
+  - W
   - F
-  - G
-  - C
-  - R
+  - P
+  - B
+  - $$mdi:arrow-down-bold$$
+  - J
   - L
-  - {t: /, s: '?'}
+  - U
+  - Y
+  - {t: ;, s: ':'}
+  - {t: '''', s: '"'}
   - $$mdi:keyboard-esc$$
   - A
-  - O
-  - E
-  - U
-  - I
-  - $$mdi:arrow-left-bold$$
-  - D
-  - H
-  - T
-  - N
+  - R
   - S
+  - T
+  - G
+  - $$mdi:arrow-left-bold$$
+  - M
+  - N
+  - E
+  - I
+  - O
   - {t: '-', s: _}
   - $$mdi:apple-keyboard-shift$$
-  - {t: '''', s: '"'}
-  - Q
-  - J
-  - K
-  - X
-  - $$mdi:arrow-right-bold$$
-  - B
-  - M
-  - W
-  - V
   - Z
+  - X
+  - C
+  - D
+  - V
+  - $$mdi:arrow-right-bold$$
+  - K
+  - H
+  - {t: ',', s: <}
+  - .
+  - {t: /, s: '?'}
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:volume-off$$
   - $$mdi:apple-keyboard-control$$
@@ -125,19 +125,19 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {type: held}
   - $$mdi:mouse-left-click-outline$$
-  - {t: '2', h: toggle}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: qwerty, h: toggle}
+  - {t: LAYER0, h: toggle}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  '2':
+  qwerty:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - '1'
   - '2'
   - '3'
   - '4'
   - {t: '5', s: '%'}
-  - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
+  - $$mdi:arrow-up-bold$$
   - '6'
   - {t: '7', s: '&'}
   - {t: '8', s: '*'}
@@ -150,7 +150,7 @@ layers:
   - E
   - R
   - T
-  - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
+  - $$mdi:arrow-down-bold$$
   - Y
   - U
   - I
@@ -163,7 +163,7 @@ layers:
   - D
   - F
   - G
-  - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
+  - $$mdi:arrow-left-bold$$
   - H
   - J
   - K
@@ -176,22 +176,22 @@ layers:
   - C
   - V
   - B
-  - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
+  - $$mdi:arrow-right-bold$$
   - N
   - M
   - {t: ',', s: <}
   - .
   - {t: /, s: '?'}
   - $$mdi:apple-keyboard-shift$$
-  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:volume-off$$
   - $$mdi:apple-keyboard-control$$
   - LGUI
   - $$mdi:keyboard-space$$
-  - $$mdi:keyboard-space$$
+  - $$mdi:apple-keyboard-option$$
   - layer1
-  - $$mdi:mouse-left-click-outline$$
-  - {t: LAYER0, h: toggle}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:backspace$$', type: backspace}
-  - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
