@@ -15,43 +15,43 @@ layers:
   - {t: '*', s: '0'}
   - '#'
   - $$mdi:keyboard-tab$$
-  - Q
-  - W
-  - F
-  - P
-  - B
-  - $$mdi:arrow-down-bold$$
-  - J
-  - L
-  - U
-  - Y
   - {t: ;, s: ':'}
-  - {t: '''', s: '"'}
-  - $$mdi:keyboard-esc$$
-  - A
-  - R
-  - S
-  - T
-  - G
-  - $$mdi:arrow-left-bold$$
-  - M
-  - N
-  - E
-  - I
-  - O
-  - {t: '-', s: _}
-  - $$mdi:apple-keyboard-shift$$
-  - Z
-  - X
-  - C
-  - D
-  - V
-  - $$mdi:arrow-right-bold$$
-  - K
-  - H
   - {t: ',', s: <}
   - .
+  - P
+  - Y
+  - $$mdi:arrow-down-bold$$
+  - F
+  - G
+  - C
+  - R
+  - L
   - {t: /, s: '?'}
+  - $$mdi:keyboard-esc$$
+  - A
+  - O
+  - E
+  - U
+  - I
+  - $$mdi:arrow-left-bold$$
+  - D
+  - H
+  - T
+  - N
+  - S
+  - {t: '-', s: _}
+  - $$mdi:apple-keyboard-shift$$
+  - {t: '''', s: '"'}
+  - Q
+  - J
+  - K
+  - X
+  - $$mdi:arrow-right-bold$$
+  - B
+  - M
+  - W
+  - V
+  - Z
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:volume-off$$
   - $$mdi:apple-keyboard-control$$
