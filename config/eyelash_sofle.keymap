@@ -156,10 +156,10 @@
 
         others {
             bindings = <
-&kp DOLLAR  &kp F1    &kp F2            &kp F3          &kp F4                &kp F5           &mmv MOVE_UP     &kp F6     &kp F7                 &kp F8           &kp F9             &kp F10        &kp F11
-&trans      &none     &none             &none           &none                 &none            &mmv MOVE_DOWN   &none      &none                  &none            &none              &none          &none
-&kp PIPE    &kp PLUS  &kp LEFT_BRACKET  &kp LEFT_BRACE  &kp LEFT_PARENTHESIS  &kp AMPERSAND    &mmv MOVE_LEFT   &kp EQUAL  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACE  &kp RIGHT_BRACKET  &kp ASTERISK   &kp HASH
-&trans      &none     &none             &none           &none                 &none            &mmv MOVE_RIGHT  &none      &none                  &none            &none              &kp BACKSLASH  &trans
+&kp DOLLAR  &kp F1    &kp F2            &kp F3          &kp F4                &kp F5           &mmv MOVE_UP     &kp F6     &kp F7                 &kp F8           &kp F9             &kp F10           &kp F11
+&trans      &none     &none             &none           &none                 &none            &mmv MOVE_DOWN   &none      &none                  &none            &none              &kp LEFT_BRACKET  &kp RIGHT_BRACKET
+&kp PIPE    &kp PLUS  &kp LEFT_BRACKET  &kp LEFT_BRACE  &kp LEFT_PARENTHESIS  &kp AMPERSAND    &mmv MOVE_LEFT   &kp EQUAL  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACE  &kp RIGHT_BRACKET  &kp ASTERISK      &kp HASH
+&trans      &none     &none             &none           &none                 &none            &mmv MOVE_RIGHT  &none      &none                  &none            &none              &kp BACKSLASH     &trans
 &kp C_MUTE  &trans    &trans            &trans          &none                 &trans           &mkp LCLK        &trans     &trans                 &trans           &trans             &trans
             >;
 
