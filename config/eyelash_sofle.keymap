@@ -144,8 +144,8 @@
 
         qwerty {
             bindings = <
-&kp TILDE   &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp N5    &kp UP_ARROW     &kp NUMBER_6  &kp N7     &kp N8         &kp N9      &kp N0            &kp EQUAL
-&kp TAB     &kp Q         &kp W         &kp E         &kp R         &kp T     &kp DOWN_ARROW   &kp Y         &kp U      &kp I          &kp O       &kp P             &kp MINUS
+&kp TILDE   &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp N5    &kp UP_ARROW     &kp NUMBER_6  &kp N7     &kp N8         &kp N9      &kp N0            &kp MINUS
+&kp TAB     &kp Q         &kp W         &kp E         &kp R         &kp T     &kp DOWN_ARROW   &kp Y         &kp U      &kp I          &kp O       &kp P             &kp EQUAL
 &kp ESCAPE  &kp A         &kp S         &kp D         &kp F         &kp G     &kp LEFT_ARROW   &kp H         &kp J      &kp K          &kp L       &kp SEMICOLON     &kp SQT
 &kp LSHFT   &kp Z         &kp X         &kp C         &kp V         &kp B     &kp RIGHT_ARROW  &kp N         &kp M      &kp COMMA      &kp PERIOD  &kp LEFT_BRACKET  &kp RIGHT_BRACKET
 &kp C_MUTE  &kp LCTRL     &kp LGUI      &kp SPACE     &kp LEFT_ALT  &mo 1     &kp ENTER        &kp ENTER     &kp SPACE  &kp BACKSPACE  &kp SLASH   &mo 2
