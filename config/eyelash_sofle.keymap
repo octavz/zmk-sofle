@@ -156,7 +156,7 @@
 
         others {
             bindings = <
-&kp ESCAPE  &kp F1    &kp F2            &kp F3          &kp F4                &kp F5           &mmv MOVE_UP     &kp F6         &kp F7                 &kp F8           &kp F9             &kp F10           &kp F11
+&kp ESCAPE  &kp F1    &kp F2            &kp F3          &kp F4                &kp F5           &mmv MOVE_UP     &kp F6         &kp F7                 &kp F8           &kp F9             &kp F10           &kp BACKSPACE
 &trans      &none     &none             &none           &none                 &none            &mmv MOVE_DOWN   &kp PAGE_UP    &none                  &none            &none              &kp LEFT_BRACKET  &kp RIGHT_BRACKET
 &kp PIPE    &kp PLUS  &kp LEFT_BRACKET  &kp LEFT_BRACE  &kp LEFT_PARENTHESIS  &kp AMPERSAND    &mmv MOVE_LEFT   &kp PAGE_DOWN  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACE  &kp RIGHT_BRACKET  &kp ASTERISK      &kp HASH
 &trans      &none     &none             &none           &none                 &none            &mmv MOVE_RIGHT  &kp HOME       &none                  &none            &none              &kp BACKSLASH     &kp SLASH
