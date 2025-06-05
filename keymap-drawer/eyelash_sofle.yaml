@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: eyelash_sofle}
 layers:
   qwerty:
-  - '~'
+  - {t: '`', s: '~'}
   - '1'
   - '2'
   - '3'
