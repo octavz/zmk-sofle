@@ -52,13 +52,13 @@ layers:
   - {t: ',', s: <}
   - .
   - {t: /, s: '?'}
-  - {t: \, s: '|'}
+  - {t: '$$mdi:apple-keyboard-shift$$', h: \}
   - $$mdi:volume-off$$
   - bluetooth
   - LGUI
   - $$mdi:apple-keyboard-option$$
   - {t: '$$mdi:backspace$$', type: backspace}
-  - layer1
+  - {t: '$$mdi:keyboard-return$$', h: layer1}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:keyboard-space$$
