@@ -52,7 +52,7 @@ layers:
   - {t: ',', s: <}
   - .
   - {t: /, s: '?'}
-  - {t: '$$mdi:apple-keyboard-shift$$', h: \}
+  - {t: \, h: '$$mdi:apple-keyboard-shift$$', s: '|'}
   - $$mdi:volume-off$$
   - bluetooth
   - LGUI
