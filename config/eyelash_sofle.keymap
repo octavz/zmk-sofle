@@ -156,11 +156,11 @@
 
         others {
             bindings = <
-&kp ESCAPE  &kp F1  &kp F2  &kp F3  &kp F4      &kp F5    &mmv MOVE_UP     &kp F6          &kp F7      &kp F8                &kp F9                 &kp F10        &kp BACKSPACE
-&trans      &none   &none   &none   &none       &none     &mmv MOVE_DOWN   &kp PAGE_UP     &none       &none                 &none                  &kp F11        &kp F12
-&none       &none   &none   &none   &none       &none     &mmv MOVE_LEFT   &kp PAGE_DOWN   &caps_word  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp QUESTION   &kp ENTER
-&trans      &none   &none   &none   &none       &none     &mmv MOVE_RIGHT  &kp HOME        &kp END     &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp BACKSLASH  &kp SLASH
-&kp C_MUTE  &trans  &trans  &trans  &kp DELETE  &trans    &mkp LCLK        &studio_unlock  &trans      &none                 &trans                 &trans
+&kp ESCAPE  &kp F1  &kp F2  &kp F3  &kp F4      &kp F5    &mmv MOVE_UP     &kp F6         &kp F7      &kp F8                &kp F9                 &kp F10        &kp BACKSPACE
+&trans      &none   &none   &none   &none       &none     &mmv MOVE_DOWN   &kp PAGE_UP    &none       &none                 &none                  &kp F11        &kp F12
+&none       &none   &none   &none   &none       &none     &mmv MOVE_LEFT   &kp PAGE_DOWN  &caps_word  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp QUESTION   &kp ENTER
+&trans      &none   &none   &none   &none       &none     &mmv MOVE_RIGHT  &kp HOME       &kp END     &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp BACKSLASH  &kp SLASH
+&kp C_MUTE  &trans  &trans  &trans  &kp DELETE  &trans    &mkp LCLK        &mkp MB2       &trans      &none                 &trans                 &trans
             >;
 
             display-name = "layer1";
@@ -169,11 +169,11 @@
 
         bluetooth {
             bindings = <
-&bt BT_CLR_ALL  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &trans  &trans  &trans    &trans          &trans           &trans  &kp BACKSPACE
-&bt BT_CLR      &trans        &trans        &trans        &trans        &trans          &trans  &trans  &trans    &kp UP_ARROW    &trans           &trans  &trans
-&trans          &trans        &trans        &trans        &trans        &trans          &trans  &trans  &kp LEFT  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans  &trans
-&trans          &trans        &trans        &trans        &trans        &trans          &trans  &trans  &trans    &trans          &trans           &trans  &trans
-&trans          &trans        &trans        &trans        &trans        &trans          &trans  &trans  &trans    &trans          &trans           &trans
+&bt BT_CLR_ALL  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &msc SCRL_UP     &trans  &trans    &trans          &trans           &trans  &kp BACKSPACE
+&bt BT_CLR      &trans        &trans        &trans        &trans        &trans          &msc SCRL_DOWN   &trans  &trans    &kp UP_ARROW    &trans           &trans  &trans
+&trans          &trans        &trans        &trans        &trans        &trans          &msc SCRL_LEFT   &trans  &kp LEFT  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans  &trans
+&trans          &trans        &trans        &trans        &trans        &trans          &msc SCRL_RIGHT  &trans  &trans    &trans          &trans           &trans  &trans
+&trans          &trans        &trans        &trans        &trans        &trans          &mkp MB3         &trans  &trans    &trans          &trans           &trans
             >;
         };
     };
