@@ -57,12 +57,12 @@ layers:
   - bluetooth
   - LGUI
   - $$mdi:apple-keyboard-option$$
-  - $$mdi:keyboard-space$$
+  - {t: '$$mdi:backspace$$', type: backspace}
   - layer1
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:keyboard-space$$
-  - {t: '$$mdi:backspace$$', type: backspace}
+  - $$mdi:keyboard-space$$
   - {t: '[', s: '{'}
   - {t: ']', s: '}'}
   layer1:
