@@ -61,10 +61,10 @@ layers:
   - {t: '$$mdi:keyboard-return$$', h: layer1}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:keyboard-return$$', h: bluetooth}
-  - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-control$$'}
   - $$mdi:keyboard-space$$
   - {t: '[', h: '$$mdi:apple-keyboard-option$$', s: '{'}
-  - {t: ']', h: '$$mdi:apple-keyboard-control$$', s: '}'}
+  - {t: ']', h: '$$mdi:apple-keyboard-shift$$', s: '}'}
   layer1:
   - $$mdi:keyboard-esc$$
   - F1
